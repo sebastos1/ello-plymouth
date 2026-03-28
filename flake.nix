@@ -8,7 +8,7 @@
         src = self;
         installPhase = ''
           mkdir -p $out/share/plymouth/themes/ello
-          cp -r * $out/share/plymouth/themes/ello/
+          cp -r ello/* $out/share/plymouth/themes/ello/
         '';
       };
     };
