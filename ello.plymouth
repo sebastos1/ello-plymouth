@@ -5,5 +5,5 @@ Comment=elloooooo
 ModuleName=script
 
 [script]
-ImageDir=frames
+ImageDir=.
 ScriptFile=ello.script
