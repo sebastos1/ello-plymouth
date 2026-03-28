@@ -9,6 +9,7 @@
         installPhase = ''
           mkdir -p $out/share/plymouth/themes/ello
           cp -r ello/* $out/share/plymouth/themes/ello/
+          sed -i "s|/usr/|$out/|g" $out/share/plymouth/themes/ello/ello.plymouth
         '';
       };
     };
