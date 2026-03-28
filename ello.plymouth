@@ -5,5 +5,5 @@ Comment=elloooooo
 ModuleName=script
 
 [script]
-ImageDir=.
-ScriptFile=ello.script
+ImageDir=/etc/plymouth/themes/ello/frames
+ScriptFile=/etc/plymouth/themes/ello/ello.script
